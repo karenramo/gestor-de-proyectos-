@@ -1,0 +1,33 @@
+/* CarreraContainer.css */
+.table-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-container th,
+  .table-container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .table-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table-container tbody tr:hover {
+    background-color: #e9e9e9;
+  }
+  

@@ -1,0 +1,70 @@
+/* Home.css */
+
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Cambia la fuente según tus preferencias */
+  background-color: #fff; /* Color de fondo blanco */
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Mínimo alto de la vista */
+}
+
+.header {
+  background-color: #b3e5fc; /* Color de fondo celeste claro */
+  padding: 20px; /* Espaciado interno para el header */
+}
+
+.header .logo {
+  width: 200px; /* Ajusta el ancho del logo */
+  height: 80px; /* Mantiene la proporción */
+}
+
+.content {
+  background-size: cover;
+  flex: 1; /* Ocupa todo el espacio disponible */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  margin: 10px;
+}
+
+.home-button {
+  background-color: #007bff; /* Azul claro */
+  color: white; /* Letras blancas */
+  font-weight: bold; /* Texto en negrita */
+  font-size: 1.2em; /* Tamaño de fuente más grande */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Quita el borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  display: flex; /* Hace que los elementos se distribuyan en fila */
+  align-items: center; /* Centra los elementos verticalmente */
+}
+
+.home-button .button-text {
+  margin-left: 10px; /* Añade un margen entre el icono y el texto */
+}
+
+.home-button:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: #b3e5fc; /* Color de fondo celeste claro */
+  padding: 10px 0; /* Espaciado interno para el footer */
+}
+
+.footer-text {
+  color: #fff;
+}
